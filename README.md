@@ -13,7 +13,7 @@ A conexão foi configurada no arquivo conexao.php
 
 Foram definidas as variáveis com os dados do hostname, username, password e database e foi esabelecida a conexão utilizando o mysqli_connect.
 
-# Página inicial (Cadastro de venda):
+## Página inicial (Cadastro de venda):
 Foi construída utilizando o bootstrap, com campos de formulário dos tipos text, select, number e textarea.
 
 O botão "Adicionar mais produtos" chama uma função em JavaScript no arquivo helpers.js para adicionar mais campos de produtos de forma dinâmica.
@@ -37,5 +37,5 @@ as informações dos registros estão dispostas em cards, onde encontram-se os b
 ## Excluir:
 O botão de excluir chama uma função assíncrona no JavaScript que exibe um alert para confirmação se o usuáio deseja mesmo excluir e redireciona para o arquivo excluir.php onde é realizada a query de delete.
 
-# Editar:
+## Editar:
 A página de editar.php exibe um formulário com os dados atuais, onde é possível editá-los e enviar o form pelo método POST para a página processaEditar.php para ser realizada a query de update.
